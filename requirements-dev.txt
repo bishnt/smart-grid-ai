@@ -1,0 +1,7 @@
+# Testing & linting
+pytest>=7.2.0
+black>=23.0
+flake8>=6.0
+
+# Jupyter (for experiments)
+jupyterlab>=4.0.0

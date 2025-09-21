@@ -1,0 +1,20 @@
+# Core numerical + data handling
+numpy>=1.23.0
+pandas>=1.5.0
+
+# Machine learning + forecasting
+scikit-learn>=1.2.0
+prophet>=1.1
+
+# Database connection
+influxdb-client>=1.36.0
+
+# Data visualization (optional, useful for debugging outside Grafana)
+matplotlib>=3.7.0
+
+# Communication (Simulink → Python)
+pyzmq>=25.0.0   # ZeroMQ alternative
+pyserial>=3.5   # If later using serial links
+
+# Utilities
+python-dotenv>=1.0.0   # manage secrets like InfluxDB tokens
