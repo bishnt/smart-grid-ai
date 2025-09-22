@@ -18,3 +18,7 @@ pyserial>=3.5   # If later using serial links
 
 # Utilities
 python-dotenv>=1.0.0   # manage secrets like InfluxDB tokens
+
+# Additional dependencies for UDP streaming
+structures>=0.1.0  # For binary data parsing (if needed)
+psutil>=5.9.0     # For system monitoring
