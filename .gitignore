@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Docker volumes and data
+influxdb/data/
+influxdb/config/
+grafana/
+logs/
+
+# Environment files (keep examples)
+.env
+env.local
+.env.local
